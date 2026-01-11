@@ -97,6 +97,12 @@ zelda-in-matlab/
 │   ├── cavePolygon.xlsx
 │   └── posEnemy.xlsx
 ├── Images/               # Sprite images and assets
+│   ├── Miscellaneous - HUD & Pause Screen.png
+│   ├── Overworld - Overworld (First Quest).png
+│   ├── Playable Characters - Link.png
+│   ├── Enemies & Bosses - Overworld Enemies.png
+│   ├── Miscellaneous - Enemy Death.png
+│   └── Miscellaneous - NPCs.png
 ├── main.m                # Entry point
 ├── getPlayerOperation.m  # Input handling
 └── README.md
