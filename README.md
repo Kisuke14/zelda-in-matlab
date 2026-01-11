@@ -23,13 +23,9 @@ This is an ongoing project and **not yet a full remake** of the original game.
 
 ---
 
-## Screenshots / Demo
+## Demo
 
-(Add screenshots or GIFs here)
-
-Example:
-
-![Gameplay Demo](images/demo.gif)
+![Gameplay Demo](demo.gif)
 
 ---
 
@@ -51,9 +47,25 @@ Tested on:
 git clone https://github.com/your-username/zelda-in-matlab.git
 ```
 
-2. Open MATLAB.
-3. Navigate to the project folder.
-4. Run the main script:
+2. Download the required sprite images from The Spriters Resource and place them in the appropriate folders.
+
+Due to copyright reasons, the original game assets are not included in this repository.
+You can download the original NES Zelda sprites from the following website:
+
+https://www.spriters-resource.com/nes/legendofzelda/
+
+Make sure the folder structure matches the expected layout in this project.
+
+3. (Optional, but required for controller support)
+If you want to use a controller such as Joy-Con, download the following external library and place it in the appropriate folder (e.g., ClassDef/):
+
+matlab-hidapi
+https://github.com/diggerdata/matlab-hidapi
+
+4. Open MATLAB.
+5. Navigate to the project folder.
+6. Add the project folder (and its subfolders) to the MATLAB path.
+7. Run the main script:
 
 ---
 
@@ -94,11 +106,26 @@ zelda-in-matlab/
 
 ## Assets and Credits
 
-Some of the sprite images used in this project were sourced from The Spriters Resource:
+### Sprite images
+
+This project uses sprite images from *The Legend of Zelda* (NES).
+
+Due to copyright reasons, the original game assets are not included in this repository.  
+Please download the required sprites from **The Spriters Resource**:
 
 https://www.spriters-resource.com/nes/legendofzelda/
 
 All rights to these assets belong to their respective owners.
+
+### hid-api
+
+This project uses the following external library for controller input:
+
+- **matlab-hidapi**  
+  https://github.com/diggerdata/matlab-hidapi
+
+This library is developed and maintained by its respective authors.
+Please refer to the original repository for license details.
 
 ---
 
