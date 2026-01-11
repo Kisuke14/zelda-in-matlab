@@ -41,12 +41,7 @@ Tested on:
 
 ## How to Run
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/your-username/zelda-in-matlab.git
-```
-
+1. Clone this repository
 2. Download the required sprite images from The Spriters Resource and place them in the appropriate folders.
 
 Due to copyright reasons, the original game assets are not included in this repository.
